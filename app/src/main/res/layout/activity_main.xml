@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tvNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/n_s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvEles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/eles"
+        app:layout_constraintStart_toEndOf="@+id/tvNos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnNos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/_1"
+        app:layout_constraintStart_toStartOf="@+id/tvNosValor"
+        app:layout_constraintTop_toBottomOf="@+id/tvNosValor"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnNos3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3"
+        app:layout_constraintStart_toStartOf="@+id/btnNos1"
+        app:layout_constraintTop_toBottomOf="@+id/btnNos1" />
+
+    <Button
+        android:id="@+id/btnNos6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_6"
+        app:layout_constraintStart_toStartOf="@+id/btnNos3"
+        app:layout_constraintTop_toBottomOf="@+id/btnNos3" />
+
+    <Button
+        android:id="@+id/btnNos9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_9"
+        app:layout_constraintStart_toStartOf="@+id/btnNos6"
+        app:layout_constraintTop_toBottomOf="@+id/btnNos6" />
+
+    <Button
+        android:id="@+id/btnNos12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_12"
+        app:layout_constraintStart_toStartOf="@+id/btnNos9"
+        app:layout_constraintTop_toBottomOf="@+id/btnNos9" />
+
+    <Button
+        android:id="@+id/btnEles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/_1"
+        app:layout_constraintStart_toStartOf="@+id/tvElesValor"
+        app:layout_constraintTop_toBottomOf="@+id/tvElesValor" />
+
+    <Button
+        android:id="@+id/btnEles3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_3"
+        app:layout_constraintStart_toStartOf="@+id/btnEles1"
+        app:layout_constraintTop_toBottomOf="@+id/btnEles1" />
+
+    <Button
+        android:id="@+id/btnEles6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_6"
+        app:layout_constraintStart_toStartOf="@+id/btnEles3"
+        app:layout_constraintTop_toBottomOf="@+id/btnEles3" />
+
+    <Button
+        android:id="@+id/btnEles9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_9"
+        app:layout_constraintStart_toStartOf="@+id/btnEles6"
+        app:layout_constraintTop_toBottomOf="@+id/btnEles6" />
+
+    <Button
+        android:id="@+id/btnEles12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_12"
+        app:layout_constraintStart_toStartOf="@+id/btnEles9"
+        app:layout_constraintTop_toBottomOf="@+id/btnEles9" />
+
+    <TextView
+        android:id="@+id/tvNosValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/_0"
+        app:layout_constraintStart_toStartOf="@+id/tvNos"
+        app:layout_constraintTop_toBottomOf="@+id/tvNos" />
+
+    <TextView
+        android:id="@+id/tvElesValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/_0"
+        app:layout_constraintStart_toStartOf="@+id/tvEles"
+        app:layout_constraintTop_toBottomOf="@+id/tvEles" />
+
+    <Button
+        android:id="@+id/btnHistorico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/hist_rico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLimpar" />
+
+    <Button
+        android:id="@+id/btnZerarHistorico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/zerar_hist_tico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistorico" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/limpar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNos12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

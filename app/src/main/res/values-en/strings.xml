@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PraticaProva</string>
+    <string name="zerar_hist_tico">Clear History</string>
+    <string name="vitoria">%1$s win with %2$d points!</string>
+    <string name="limpar">Clear</string>
+    <string name="n_s">We</string>
+    <string name="eles">Them</string>
+    <string name="_0">0</string>
+    <string name="_1">+1</string>
+    <string name="_3">+3</string>
+    <string name="_6">+6</string>
+    <string name="_9">+9</string>
+    <string name="_12">+12</string>
+    <string name="hist_rico">History</string>
+    <string name="hist_rico_de_partidas">Match History</string>
+    <string name="vitoriasNos">We won the match!</string>
+    <string name="vitoriasEles">They won the match!</string>
+    <string name="pontosZerados">Points Reset</string>
+    <string name="HistoricoZerado">History Cleared</string>
+</resources>

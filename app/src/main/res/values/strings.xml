@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PraticaProva</string>
+    <string name="vitoria">%1$s ganhou a partida com %2$d pontos!</string>
+    <string name="zerar_hist_tico">Zerar Histótico</string>
+    <string name="limpar">Limpar</string>
+    <string name="n_s">Nós</string>
+    <string name="eles">Eles</string>
+    <string name="_0">0</string>
+    <string name="_1">+1</string>
+    <string name="_3">+3</string>
+    <string name="_6">+6</string>
+    <string name="_9">+9</string>
+    <string name="_12">+12</string>
+    <string name="hist_rico">Histórico</string>
+    <string name="hist_rico_de_partidas">Histórico de Partidas</string>
+    <string name="vitoriasNos">Nós ganhamos a partida!</string>
+    <string name="vitoriasEles">Eles ganharam a partida!</string>
+    <string name="pontosZerados">Pontos Zerados</string>
+    <string name="HistoricoZerado">Histórico Zerado</string>
+</resources>
